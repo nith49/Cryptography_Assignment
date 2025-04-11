@@ -15,52 +15,7 @@ The system consists of three primary components:
 Additionally, there's a **Data Sync Server** (Port 5005) that facilitates data sharing between distributed components when running on multiple devices.
 
 ## System Flow Diagram
-```
-flowchart TD
-    %% Main components
-    User([User Client])
-    UPI([UPI Machine])
-    Bank([Bank Server])
-    Blockchain[(Blockchain Ledger)]
-    Merchant([Merchant])
-
-    %% Main flow - QR code generation
-    Merchant -->|1. Request QR code with MID| UPI
-    UPI -->|2. Request VMID generation| Bank
-    Bank -->|3. Generate VMID using SPECK encryption| Bank
-    Bank -->|4. Return VMID| UPI
-    UPI -->|5. Generate & display QR code| Merchant
-    
-    %% Main flow - Payment process
-    User -->|6. Scan QR code to get VMID| User
-    User -->|7. Enter MMID, PIN & amount| UPI
-    UPI -->|8. Decrypt VMID to get MID| UPI
-    UPI -->|9. Forward transaction request| Bank
-    Bank -->|10. Verify user credentials| Bank
-    Bank -->|11. Check account balance| Bank
-    Bank -->|12. Process transaction| Bank
-    Bank -->|13. Record in blockchain| Blockchain
-    Bank -->|14. Send confirmation| UPI
-    UPI -->|15. Confirm to user| User
-    UPI -->|16. Confirm to merchant| Merchant
-    
-    %% Optional quantum attack simulation
-    User -->|Optional: Request quantum attack simulation| Bank
-    Bank -->|Run Shor's algorithm simulation| Bank
-    
-    %% Styling
-    classDef user fill:#f9d,stroke:#333,stroke-width:2px
-    classDef upi fill:#9df,stroke:#333,stroke-width:2px
-    classDef bank fill:#9f9,stroke:#333,stroke-width:2px
-    classDef blockchain fill:#f99,stroke:#333,stroke-width:2px
-    classDef merchant fill:#ff9,stroke:#333,stroke-width:2px
-    
-    class User user
-    class UPI upi
-    class Bank bank
-    class Blockchain blockchain
-    class Merchant merchant
-```
+<pre> ```mermaid flowchart TD %% Main components User([User Client]) UPI([UPI Machine]) Bank([Bank Server]) Blockchain[(Blockchain Ledger)] Merchant([Merchant]) %% Main flow - QR code generation Merchant -->|1. Request QR code with MID| UPI UPI -->|2. Request VMID generation| Bank Bank -->|3. Generate VMID using SPECK encryption| Bank Bank -->|4. Return VMID| UPI UPI -->|5. Generate & display QR code| Merchant %% Main flow - Payment process User -->|6. Scan QR code to get VMID| User User -->|7. Enter MMID, PIN & amount| UPI UPI -->|8. Decrypt VMID to get MID| UPI UPI -->|9. Forward transaction request| Bank Bank -->|10. Verify user credentials| Bank Bank -->|11. Check account balance| Bank Bank -->|12. Process transaction| Bank Bank -->|13. Record in blockchain| Blockchain Bank -->|14. Send confirmation| UPI UPI -->|15. Confirm to user| User UPI -->|16. Confirm to merchant| Merchant %% Optional quantum attack simulation User -->|Optional: Request quantum attack simulation| Bank Bank -->|Run Shor's algorithm simulation| Bank %% Styling classDef user fill:#f9d,stroke:#333,stroke-width:2px classDef upi fill:#9df,stroke:#333,stroke-width:2px classDef bank fill:#9f9,stroke:#333,stroke-width:2px classDef blockchain fill:#f99,stroke:#333,stroke-width:2px classDef merchant fill:#ff9,stroke:#333,stroke-width:2px class User user class UPI upi class Bank bank class Blockchain blockchain class Merchant merchant ``` </pre>
 
 ## Prerequisites
 Before beginning the implementation, ensure you have:
