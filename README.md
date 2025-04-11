@@ -504,7 +504,7 @@ The project has been successfully implemented with all key features functional:
 - Add support for recurring payments
 
 ## Contributors
-This project was developed by Team XYZ for the Cryptography (BITS F463) course at BITS Pilani.
+This project was developed by Group 27 for the Cryptography (BITS F463) course at BITS Pilani.
 
 **Team Members:**
 - Naga Siva Nithin Kota
