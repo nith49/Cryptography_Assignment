@@ -60,7 +60,6 @@ flowchart TD
     class Blockchain blockchain
     class Merchant merchant
 
-
 ## Prerequisites
 Before beginning the implementation, ensure you have:
 - Windows operating system
