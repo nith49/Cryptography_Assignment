@@ -1,0 +1,18 @@
+{
+  "29587d3c346a5fef": {
+    "name": "Nithin",
+    "ifsc_code": "HDFC0001",
+    "password_hash": "nith1234",
+    "balance": 50013378.0,
+    "bank": "HDFC",
+    "created_at": 1743666253.9380467
+  },
+  "85cf1c60d850a8ca": {
+    "name": "Abhi",
+    "ifsc_code": "ICIC0002",
+    "password_hash": "hp055",
+    "balance": 203037629.0,
+    "bank": "ICICI",
+    "created_at": 1743679987.1623595
+  }
+}

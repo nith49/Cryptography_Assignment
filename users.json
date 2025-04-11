@@ -1,0 +1,24 @@
+{
+  "3223c843abd9245b": {
+    "name": "Pavan",
+    "ifsc_code": "SBIN0002",
+    "password_hash": "pa135",
+    "pin": "2476",
+    "balance": 571210.0,
+    "bank": "SBI",
+    "mobile_number": "9843901123",
+    "mmid": "21eb5a5459c694a0",
+    "created_at": 1743666293.576347
+  },
+  "44cabdf0cbf7744e": {
+    "name": "Veeresh",
+    "ifsc_code": "ICIC0001",
+    "password_hash": "veer56",
+    "pin": "5430",
+    "balance": 8522.0,
+    "bank": "ICICI",
+    "mobile_number": "9829291034",
+    "mmid": "714c0cffbf20cd66",
+    "created_at": 1743680040.2630467
+  }
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "index": 0,
+    "timestamp": 1743840656.6568942,
+    "transaction_data": {
+      "transaction_id": "genesis",
+      "bank": "ICICI",
+      "message": "Genesis Block for ICICI Bank Blockchain"
+    },
+    "previous_hash": "0",
+    "hash": "0f85505fa74c435cd57949685f726fe9b5ff0fece2119280c2562a67098cfef9"
+  },
+  {
+    "index": 1,
+    "timestamp": 1743840744.4504755,
+    "transaction_data": {
+      "transaction_id": "44cabdf0cbf7744e_29587d3c346a5fef_1743840744.448654",
+      "from_user": "44cabdf0cbf7744e",
+      "to_merchant": "29587d3c346a5fef",
+      "amount": 678.0,
+      "timestamp": 1743840744.448654,
+      "user_bank": "ICICI",
+      "merchant_bank": "HDFC"
+    },
+    "previous_hash": "0f85505fa74c435cd57949685f726fe9b5ff0fece2119280c2562a67098cfef9",
+    "hash": "e902ee96f84df6d5483a47f5d98d3308992886e4c2929804650ca6eee9af0876"
+  },
+  {
+    "index": 2,
+    "timestamp": 1744193875.1050649,
+    "transaction_data": {
+      "transaction_id": "44cabdf0cbf7744e_85cf1c60d850a8ca_1744193875.1049576",
+      "from_user": "44cabdf0cbf7744e",
+      "to_merchant": "85cf1c60d850a8ca",
+      "amount": 45.0,
+      "timestamp": 1744193875.1049576,
+      "user_bank": "ICICI",
+      "merchant_bank": "ICICI"
+    },
+    "previous_hash": "e902ee96f84df6d5483a47f5d98d3308992886e4c2929804650ca6eee9af0876",
+    "hash": "455ddebe728034e0051824c9922f4eb82f89075484f539c25530c172979111da"
+  }
+]

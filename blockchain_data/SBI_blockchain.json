@@ -1,0 +1,13 @@
+[
+  {
+    "index": 0,
+    "timestamp": 1743840656.656923,
+    "transaction_data": {
+      "transaction_id": "genesis",
+      "bank": "SBI",
+      "message": "Genesis Block for SBI Bank Blockchain"
+    },
+    "previous_hash": "0",
+    "hash": "0c794fae81174e13ba79a4e98fb9754c957196a75d8509e68806e56592bc32c8"
+  }
+]
