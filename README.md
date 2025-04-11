@@ -14,8 +14,7 @@ The system consists of three primary components:
 
 Additionally, there's a **Data Sync Server** (Port 5005) that facilitates data sharing between distributed components when running on multiple devices.
 
-## System Flow Diagram
-<img width="584" alt="image" src="https://github.com/user-attachments/assets/d89e82a0-128c-482b-9f28-b76c45d1e3a3" />
+Here's the GitHub link to view the project https://github.com/nith49/Cryptography_Assignment.git
 
 
 ## Prerequisites
